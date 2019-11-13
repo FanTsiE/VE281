@@ -104,6 +104,7 @@ int main(int argc, char* argv[]) {
                 cout << "Path:" << endl;*/
                 trace_back_path(N);
                 end=clock();
+                cout<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
                 return 0;
             } else {
                 PQ->enqueue(*N);
@@ -129,6 +130,7 @@ int main(int argc, char* argv[]) {
                 cout << "Path:" << endl;*/
                 trace_back_path(N);
                 end=clock();
+                cout<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
                 return 0;
             } else {
                 PQ->enqueue(*N);
@@ -154,6 +156,7 @@ int main(int argc, char* argv[]) {
                 cout << "Path:" << endl;*/
                 trace_back_path(N);
                 end=clock();
+                cout<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
                 return 0;
             } else {
                 PQ->enqueue(*N);
@@ -180,6 +183,7 @@ int main(int argc, char* argv[]) {
                // cout << "Path:" << endl;
                 trace_back_path(N);
                 end=clock();
+                cout<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
                 return 0;
             } else {
                 PQ->enqueue(*N);
@@ -191,6 +195,5 @@ int main(int argc, char* argv[]) {
         }
 
     }
-    cout<<(double)(end-start)/CLOCKS_PER_SEC<<endl;
     return 0;
 }
